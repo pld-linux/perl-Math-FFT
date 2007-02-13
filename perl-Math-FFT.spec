@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	FFT
 Summary:	Math::FFT - Perl module to calculate Fast Fourier Transforms
-Summary(pl.UTF-8):   Math::FFT - moduł Perla do obliczania szybkiej transformaty Fouriera
+Summary(pl.UTF-8):	Math::FFT - moduł Perla do obliczania szybkiej transformaty Fouriera
 Name:		perl-Math-FFT
 Version:	0.26
 Release:	1
