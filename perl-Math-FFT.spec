@@ -15,7 +15,6 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	de12537d06eb90e8a4d80b765ceb8252
-Patch0:		%{name}-types.patch
 URL:		http://search.cpan.org/dist/Math-FFT/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -32,7 +31,6 @@ transformaty Fouriera dla jednowymiarowych zbiorów danych rozmiaru
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-#%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
