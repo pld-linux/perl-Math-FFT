@@ -37,6 +37,7 @@ transformaty Fouriera dla jednowymiarowych zbiorów danych rozmiaru
 	INSTALLDIRS=vendor
 
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
