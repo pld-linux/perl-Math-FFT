@@ -8,13 +8,13 @@
 Summary:	Math::FFT - Perl module to calculate Fast Fourier Transforms
 Summary(pl.UTF-8):	Math::FFT - moduł Perla do obliczania szybkiej transformaty Fouriera
 Name:		perl-Math-FFT
-Version:	1.28
-Release:	10
+Version:	1.31
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	de12537d06eb90e8a4d80b765ceb8252
+# Source0-md5:	531cf2c2ea45d01e414fe75aac0a2c1e
 URL:		http://search.cpan.org/dist/Math-FFT/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
