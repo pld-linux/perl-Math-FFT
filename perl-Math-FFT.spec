@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	FFT
 Summary:	Math::FFT - Perl module to calculate Fast Fourier Transforms
